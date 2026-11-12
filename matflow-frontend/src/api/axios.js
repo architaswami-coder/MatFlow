@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Base Axios instance pointing to your Express backend
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://matflow-backend.onrender.com/api',
 });
 
 // Automatically inject JWT Bearer Token into headers if present
